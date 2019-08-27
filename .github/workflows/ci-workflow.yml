@@ -1,13 +1,14 @@
-name: Greet Everyone
-# This workflow is triggered on pushes to the repository.
-on: [push]
+name: Publish changed packages
+
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
-    # Job name is Greeting
-    name: Greeting
-    # This job runs on Linux
+    name: Semantic monorepo release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: pakala/semantic-monorepo@v1-release
+      - uses: pekala/semantic-monorepo@v1-release
