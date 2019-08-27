@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: pekala/semantic-monorepo@v1-release
+      - uses: pekala/semantic-monorepo@493d093b9847c57433a6f477ff32b21fce8b799c
