@@ -11,4 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: pekala/semantic-monorepo@493d093b9847c57433a6f477ff32b21fce8b799c
+      - name: Semantic monorepo
+        uses: pekala/semantic-monorepo@67babcb46a808ed5a0c23ec220cf7c474f4638e6
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
