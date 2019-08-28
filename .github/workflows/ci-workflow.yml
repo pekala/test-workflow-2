@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Semantic monorepo
-        uses: pekala/semantic-monorepo@4ef3ef4c531804a856709fd8c8bc6ec6cefb97b4
+        uses: pekala/semantic-monorepo@f3050a3f49e1b0f90f3a27bc027370493d4fbd09
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
