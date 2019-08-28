@@ -1,5 +1,12 @@
 {
   "name": "@pekala/example-pkg-a",
   "version": "1.0.0",
-  "main": "index.js"
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/pekala/test-workflow.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
