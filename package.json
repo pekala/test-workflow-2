@@ -2,6 +2,7 @@
   "name": "test-workflow",
   "repository": "git@github.com:pekala/test-workflow.git",
   "private": true,
+  "license": "UNLICENSED",
   "workspaces": [
     "packages/*"
   ]
