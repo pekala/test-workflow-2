@@ -1,2 +1,2 @@
 console.log("Hello world from package A!");
-console.log(Math.random() * 2);
+console.log(Math.random() * 4);
